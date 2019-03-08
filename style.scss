@@ -1,0 +1,29 @@
+body {
+    font-size: 10px;
+    font-weight: bold;
+    color: orangered;
+}
+
+.wrapper {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    .logo {
+        font-size: 6em;
+        float: left;
+        margin: 0 5px;
+    }
+    .upper {
+        display: flex;
+        direction: row;
+        justify-content: center;
+    }
+    .tri1, .tri2 {
+        margin: 0 5px;
+        border-top: 6px solid transparent;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-bottom: 20px solid orangered;
+    } 
+}

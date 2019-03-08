@@ -1,0 +1,30 @@
+body {
+  font-size: 10px;
+  font-weight: bold;
+  color: orangered; }
+
+.wrapper {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); }
+  .wrapper .logo {
+    font-size: 6em;
+    float: left;
+    margin: 0 5px; }
+  .wrapper .upper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+  .wrapper .tri1, .wrapper .tri2 {
+    margin: 0 5px;
+    border-top: 6px solid transparent;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 20px solid orangered; }
